@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const path = require('path');
 const express = require('express');
 const cors = require('cors');
 
@@ -30,6 +31,10 @@ app.use( '/api/eventos', require('./routes/eventos') );
 app.use( '/api/busquedas', require('./routes/busquedas') );
 app.use( '/api/login', require('./routes/auth') );
 app.use( '/api/archivos', require('./routes/archivos') );
+
+app.get('*', (req, res) => {
+        res.sendFile( path.resolve( __dirname, 'public/index.html') );
+});
 
 
 app.listen( process.env.PORT, () => {
