@@ -10,7 +10,24 @@ const { conectarDB } = require('./database/config');
 const app = express();
 
 // Configurar CORS
-app.use( cors() );
+const whitelist = ['https://parroquiantssalud.onrender.com/api'];
+
+    const corsOptionsCheck = (req, callback) => {
+    let corsOptions;
+
+    let isDomainAllowed = whitelist.indexOf(req.header('Origin')) !== -1;
+
+    if (isDomainAllowed) {
+        // Enable CORS for this request
+        corsOptions = { origin: true }
+    } else {
+        // Disable CORS for this request
+        corsOptions = { origin: false }
+    }
+    callback(null, corsOptions)
+}
+
+app.use(cors(corsOptionsCheck));
 
 //Lectura y parseo del body
 app.use( express.json() );
@@ -32,23 +49,14 @@ app.use( '/api/busquedas', require('./routes/busquedas') );
 app.use( '/api/login', require('./routes/auth') );
 app.use( '/api/archivos', require('./routes/archivos') );
 
-app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
-    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
-    res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
-    next();
-});
-
-
 app.get('*', (req, res) => {
         res.sendFile( path.resolve( __dirname, 'public/index.html') );
 });
 
 
-app.listen( process.env.PORT, () => {
-    console.log('Servidor corriendo en puerto ' + process.env.PORT );
-});
+// app.listen( process.env.PORT, () => {
+//     console.log('Servidor corriendo en puerto ' + process.env.PORT );
+// });
 
 
 
