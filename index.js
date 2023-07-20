@@ -10,24 +10,21 @@ const { conectarDB } = require('./database/config');
 const app = express();
 
 // Configurar CORS
-const whitelist = ['https://parroquiantssalud.onrender.com'];
 
-    const corsOptionsCheck = (req, callback) => {
-    let corsOptions;
+export const handler = async (event) => {
+    const response = {
+        statusCode: 200,
+        headers: {
+            "Access-Control-Allow-Headers: 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'":any,
+            "Access-Control-Allow-Origin": "'*'",
+            "Access-Control-Allow-Methods: '*'":any,
+        },
+        body: JSON.stringify('Hello!'),
+    };
+    return response;
+};
 
-    let isDomainAllowed = whitelist.indexOf(req.header('Origin')) !== -1;
-
-    if (isDomainAllowed) {
-        // Enable CORS for this request
-        corsOptions = { origin: true }
-    } else {
-        // Disable CORS for this request
-        corsOptions = { origin: false }
-    }
-    callback(null, corsOptions)
-}
-
-app.use(cors(corsOptionsCheck));
+app.use(cors());
 
 //Lectura y parseo del body
 app.use( express.json() );
