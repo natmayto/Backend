@@ -4503,7 +4503,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const environment = {
   production: true,
-  base_url: 'https://tdg-backend.onrender.com/api'
+  base_url: 'https://parroquiantssalud.onrender.com/api'
 };
 
 /***/ }),
@@ -4521,7 +4521,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const environment = {
   production: true,
-  base_url: 'https://tdg-backend.onrender.com/api'
+  base_url: 'https://parroquiantssalud.onrender.com/api'
 };
 
 /***/ }),
