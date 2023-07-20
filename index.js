@@ -10,7 +10,7 @@ const { conectarDB } = require('./database/config');
 const app = express();
 
 // Configurar CORS
-const whitelist = ['https://parroquiantssalud.onrender.com/'];
+const whitelist = ['https://parroquiantssalud.onrender.com'];
 
     const corsOptionsCheck = (req, callback) => {
     let corsOptions;
