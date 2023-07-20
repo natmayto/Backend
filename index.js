@@ -10,20 +10,6 @@ const { conectarDB } = require('./database/config');
 const app = express();
 
 // Configurar CORS
-
-export const handler = async (event) => {
-    const response = {
-        statusCode: 200,
-        headers: {
-            "Access-Control-Allow-Headers: 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'":any,
-            "Access-Control-Allow-Origin": "'*'",
-            "Access-Control-Allow-Methods: '*'":any,
-        },
-        body: JSON.stringify('Hello!'),
-    };
-    return response;
-};
-
 app.use(cors());
 
 //Lectura y parseo del body
