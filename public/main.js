@@ -4298,9 +4298,9 @@ HeaderComponent.ɵfac = function HeaderComponent_Factory(t) {
 HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
   type: HeaderComponent,
   selectors: [["app-header"]],
-  decls: 83,
-  vars: 11,
-  consts: [[1, "topbar"], [1, "navbar", "top-navbar", "navbar-expand-md", "navbar-light"], [1, "navbar-header"], ["href", "index.html", 1, "navbar-brand"], ["src", "\n                            ./assets/images/logo-icon.png", "alt", "homepage", 1, "dark-logo"], ["src", "\n                            ./assets/images/logo-light-icon.png", "alt", "homepage", 1, "light-logo"], ["src", "\n                         ./assets/images/logo-text.png", "alt", "homepage", 1, "dark-logo"], ["src", "\n                         ./assets/images/logo-light-text.png", "alt", "homepage", 1, "light-logo"], [1, "navbar-collapse"], [1, "scroll-sidebar"], [1, "sidebar-nav"], ["id", "sidebarnav"], [1, "user-profile"], ["aria-expanded", "false", 1, "waves-effect", "waves-dark", "nav"], ["alt", "user", 3, "src"], [1, "hide-menu"], ["routerLink", "./perfil", "routerLinkActive", "active", 1, "nav"], ["routerLink", "configuracion-cuenta", "routerLinkActive", "active", 1, "nav"], ["routerLink", "./usuarios", "routerLinkActive", "active", 1, "nav"], ["routerLink", "/login", "routerLinkActive", "active", 1, "nav"], [1, "nav-devider", "nav"], ["aria-expanded", "false", 1, "waves-effect", "waves-dark"], ["src", "../../../assets/images/icon/income.png", "alt", "user"], [1, "hide-menu", "nav"], ["routerLink", "./eventos", "routerLinkActive", "active", 1, "nav"], ["routerLink", "./articulos", "routerLinkActive", "active", 1, "nav"], ["routerLink", "./inventario", "routerLinkActive", "active", 1, "nav"], ["routerLink", "./reservas", "routerLinkActive", "active", 1, "nav"], [1, "navbar-nav", "mr-auto"], [1, "navbar-nav", "my-lg-0"], [1, "nav-item", "dropdown"], ["href", "", "data-toggle", "dropdown", "aria-haspopup", "true", "aria-expanded", "false", 1, "nav-link", "dropdown-toggle", "waves-effect", "waves-dark"], ["alt", "user", 1, "profile-pic", 3, "src"], [1, "dropdown-menu", "dropdown-menu-right", "animated", "fadeIn", "fast"], [1, "dropdown-user"], [1, "dw-user-box"], [1, "u-img"], [1, "u-text"], [1, "text-muted"], ["routerLink", "./perfil", 1, "btn", "btn-rounded", "btn-danger", "btn-sm"], ["role", "separator", 1, "divider"], ["routerLink", "configuracion-cuenta"], [1, "ti-settings"], [1, "cursor", 3, "click"], [1, "fa", "fa-power-off"]],
+  decls: 40,
+  vars: 9,
+  consts: [[1, "topbar"], [1, "navbar", "top-navbar", "navbar-expand-md", "navbar-light"], [1, "navbar-header"], ["href", "index.html", 1, "navbar-brand"], ["src", "\n                            ./assets/images/logo-icon.png", "alt", "homepage", 1, "dark-logo"], ["src", "\n                            ./assets/images/logo-light-icon.png", "alt", "homepage", 1, "light-logo"], ["src", "\n                         ./assets/images/logo-text.png", "alt", "homepage", 1, "dark-logo"], ["src", "\n                         ./assets/images/logo-light-text.png", "alt", "homepage", 1, "light-logo"], [1, "navbar-collapse"], [1, "navbar-nav", "mr-auto"], [1, "navbar-nav", "my-lg-0"], [1, "nav-item", "dropdown"], ["href", "", "data-toggle", "dropdown", "aria-haspopup", "true", "aria-expanded", "false", 1, "nav-link", "dropdown-toggle", "waves-effect", "waves-dark"], ["alt", "user", 1, "profile-pic", 3, "src"], [1, "dropdown-menu", "dropdown-menu-right", "animated", "fadeIn", "fast"], [1, "dropdown-user"], [1, "dw-user-box"], [1, "u-img"], ["alt", "user", 3, "src"], [1, "u-text"], [1, "text-muted"], ["routerLink", "./perfil", 1, "btn", "btn-rounded", "btn-danger", "btn-sm"], ["role", "separator", 1, "divider"], ["routerLink", "configuracion-cuenta"], [1, "ti-settings"], [1, "cursor", 3, "click"], [1, "fa", "fa-power-off"]],
   template: function HeaderComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "header", 0)(1, "nav", 1)(2, "div", 2)(3, "a", 3)(4, "b");
@@ -4309,89 +4309,50 @@ HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__[
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "span");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "img", 6)(9, "img", 7);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "aside", 8)(11, "div", 9)(12, "nav", 10)(13, "ul", 11)(14, "li", 12)(15, "a", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](16, "img", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "span", 15)(18, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "ul")(21, "li")(22, "a", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](23, " Mi Perfil ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "li")(25, "a", 17);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](26, " Configuraci\u00F3n de Cuenta");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](27, "li")(28, "a", 18);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29, "Usuario");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "li")(31, "a", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, " Cerrar Sesi\u00F3n");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "div", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](11, "ul", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "ul", 10)(13, "li", 11)(14, "a", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "img", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "div", 14)(17, "ul", 15)(18, "li")(19, "div", 16)(20, "div", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](21, "img", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "div", 19)(23, "h4");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "p", 20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](27, "slice");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "a", 21);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29, "Mi Perfil");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](33, "li", 20);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "li", 12)(35, "a", 21);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](36, "img", 22);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "span", 23)(38, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, "Opciones");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "ul")(41, "li")(42, "a", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, " Eventos ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](30, "li", 22);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](31, "li")(32, "a", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](33, "i", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](34, " Configuraci\u00F3n de la Cuenta");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "li")(45, "a", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, " Articulos ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "li")(48, "a", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, " Inventario ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "li")(51, "a", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](52, "Reservas ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "div", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](54, "ul", 28);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "ul", 29)(56, "li", 30)(57, "a", 31);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](58, "img", 32);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](59, "div", 33)(60, "ul", 34)(61, "li")(62, "div", 35)(63, "div", 36);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](64, "img", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](65, "div", 37)(66, "h4");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](67);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](68, "p", 38);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](70, "slice");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](71, "a", 39);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](72, "Mi Perfil");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](73, "li", 40);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](74, "li")(75, "a", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](76, "i", 42);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](77, " Configuraci\u00F3n de la Cuenta");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](78, "li", 40);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](79, "li")(80, "a", 43);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_80_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](35, "li", 22);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "li")(37, "a", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_37_listener() {
         return ctx.logout();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](81, "i", 44);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](82, " Cerrar Sesi\u00F3n ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](38, "i", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39, " Cerrar Sesi\u00F3n ");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()()()()();
     }
     if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ctx.usuario.imagenUrl, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.usuario.nombre);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](39);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](15);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ctx.usuario.imagenUrl, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ctx.usuario.imagenUrl, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.usuario.nombre);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind3"](70, 7, ctx.usuario.email, 0, 20), " ", ctx.usuario.email.length > 20 ? "..." : "", " ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind3"](27, 5, ctx.usuario.email, 0, 20), " ", ctx.usuario.email.length > 20 ? "..." : "", " ");
     }
   },
-  dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLink, _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLinkActive, _angular_common__WEBPACK_IMPORTED_MODULE_3__.SlicePipe],
+  dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLink, _angular_common__WEBPACK_IMPORTED_MODULE_3__.SlicePipe],
   encapsulation: 2
 });
 
